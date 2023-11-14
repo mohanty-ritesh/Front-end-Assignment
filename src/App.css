@@ -1,14 +1,53 @@
-.App {
-  text-align: center;
+body{
+    background-color: rgb(223, 232, 234);
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.card{
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    max-width: 100%;
+    textOverflow: ellipsis;
+    whiteSpace: nowrap;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.group {
+    margin-left: 10px;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    max-width: 20%;
+    padding: 10px;
+}
+.group h3{
+    margin-left: 10px;
+}
+.card-body h2{
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+}
+.container{
+    display: flex;
+    overflow-x: auto;
+}
+.dropdown{
+    background-color: rgb(233, 239, 241);
+    height: 70px;
+}
+.dropdown button{
+    margin-top: 22px;
+    margin-left: 22px;
+}
+.menu{
+    background-color: rgb(223, 232, 234);
+    width: 10%;
+    border-radius: 5px;
+    box-shadow: 4px 4px rgba(60, 60, 60, 0.347);
+}
+.dropdown-content{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+select{
+    margin: 5px;
 }
